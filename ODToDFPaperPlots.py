@@ -16,7 +16,7 @@ from textwrap import wrap
 
 matplotlib.rcParams.update({'font.size': 20})
 
-# Place the corresponding file downloaded from https://huggingface.co/datasets/TSaala/IntroductionToOpenData/blob/main
+# Place the corresponding file downloaded from https://huggingface.co/datasets/TSaala/IntroductionToOpenData/tree/main
 # In the same folder as this script
 df = pd.read_feather(f'TTJets_SemiLeptMGDecays_8TeV_0.feather')
 
